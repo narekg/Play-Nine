@@ -1,0 +1,70 @@
+.mountNode {
+    color: #000;
+}
+
+.game-status {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.dashboard-item {
+    flex: 1;
+}
+
+.numberBoxList {
+    display: flex;
+    justify-content: center;
+}
+
+.star {
+    font-size: 30px;
+    padding: 2px 4px;
+}
+
+.reset {
+    margin-top: 25px;
+    padding: 5px 13px;
+    background-color: orange;
+}
+
+.numberBox {
+    padding: 5px 13px;
+    border-radius: 20px;
+    margin: 5px;
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.numberBox.grey {
+    background-color: grey;
+}
+
+.numberBox.lightgrey {
+    background-color: lightgrey;
+}
+
+.numberBox.lightgreen {
+    background-color: lightgreen;
+    cursor: not-allowed;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+}
+
+.red {
+    background-color: red;
+}
